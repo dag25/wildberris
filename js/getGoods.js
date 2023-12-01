@@ -53,10 +53,5 @@ const getGoods = () => {
 			renderGoods(JSON.parse(localStorage.getItem('goods')));
 		}
 	});
-
-	// localStorage.setItem('goods', JSON.stringify([1, 2]));
-	// console.log(JSON.parse(localStorage.getItem('goods')));
-
-	// localStorage.removeItem('goods');
 };
 getGoods();

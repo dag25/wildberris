@@ -1,7 +1,6 @@
 const getAll = () => {
 	const moreBtn = document.querySelector('.more');
-	const input = document.querySelector('.search-block > input');
-	const searchBtn = document.querySelector('.search-block > button');
+
 
 	const renderGoods = goods => {
 		const goodsContainer = document.querySelector('.long-goods-list');
